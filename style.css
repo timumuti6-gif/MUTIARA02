@@ -1,0 +1,62 @@
+
+*{margin:0;padding:0;box-sizing:border-box}
+body{
+font-family:'Segoe UI',sans-serif;
+background:#f5f1ec;
+color:#333;
+}
+nav{
+display:flex;
+justify-content:space-between;
+padding:20px 10%;
+background:#fff;
+box-shadow:0 2px 8px rgba(0,0,0,.08);
+position:sticky;
+top:0;
+}
+nav ul{display:flex;gap:20px;list-style:none}
+nav a{text-decoration:none;color:#444}
+.hero{
+display:flex;
+align-items:center;
+justify-content:center;
+gap:50px;
+padding:80px 10%;
+flex-wrap:wrap;
+}
+.hero img{
+width:320px;
+border-radius:20px;
+box-shadow:0 10px 30px rgba(0,0,0,.15);
+}
+.hero h1{
+font-size:3rem;
+margin-bottom:10px;
+}
+section{
+padding:60px 10%;
+}
+h2{
+margin-bottom:25px;
+}
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+}
+.card{
+background:white;
+padding:25px;
+border-radius:18px;
+box-shadow:0 5px 15px rgba(0,0,0,.08);
+transition:.3s;
+}
+.card:hover{
+transform:translateY(-5px);
+}
+footer{
+text-align:center;
+padding:30px;
+background:white;
+margin-top:40px;
+}
